@@ -1,0 +1,6 @@
+﻿  Source.cpp
+C:\Users\hp\Desktop\Assign 1\Assign 1\data.h(348,21): warning C4305: 'initializing': truncation from '__int64' to 'int'
+C:\Users\hp\Desktop\Assign 1\Assign 1\data.h(348,23): warning C4309: 'initializing': truncation of constant value
+  header.h
+  Generating Code...
+  Assign 1.vcxproj -> C:\Users\hp\Desktop\Assign 1\Debug\Assign 1.exe
