@@ -1,0 +1,6 @@
+﻿  hospital.h
+  patient.h
+  i228762_SE-B.cpp
+C:\Users\hp\Desktop\i228762_B\i228762_SE-B.cpp(12,9): warning C4101: 'dRate': unreferenced local variable
+  Generating Code...
+  Lab1.vcxproj -> C:\Users\hp\Desktop\i228762_B\x64\Debug\Lab1.exe

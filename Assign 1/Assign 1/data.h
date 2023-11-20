@@ -48,7 +48,7 @@ Employee* getData() {
 	while (getline(file, str)) {
 		if (str.find("$") != string::npos) {
 			str = str.substr(10, str.length() - 10);
-			str.erase(remove(str.begin(), str.end(), ','), str.end()); //https://www.geeksforgeeks.org/remove-spaces-from-a-given-string/
+			str.erase(remove(str.begin(), str.end(), ','), str.end()); 
 			salaries[i] = stoi(str);
 			i++;
 		}
@@ -153,7 +153,7 @@ void performanceAnalysis(Employee* employees) {
 	}
 
 	cout << "Average salary in the company: " << averageSalary << endl;
-	cout << "Total number of employees: " << employees[0].size << endl;
+	cout << "Total number of employees: " << 10 << endl;
 	cout << "Average tenure(in years) of employees in the company: " << averageTenure << endl;
 	cout << "Distribution of employees based on their designations: " << endl;
 	cout << "\tNumber of Software Engineers: " << softwareEngineer << endl;
@@ -174,10 +174,6 @@ void performanceAnalysis(Employee* employees) {
 void salaryAnalysis(Employee* employees) {
 	int highestSalary = 0;
 
-	//all salaries 
-	for (int i = 0; i < 10; i++) {
-		cout << i << ":  " << employees[i].getSalary() << endl;
-	}
 
 	for (int i = 0; i < 10; i++) {
 		if (employees[i].getSalary() > highestSalary) {
@@ -415,13 +411,13 @@ void tenureAnalysis(Employee* employees) {
 		}
 	}
 
-	int averageTenureSoftwareEngineer = totalTenureSoftwareEngineer / numberOfSoftwareEngineers;
-	int averageTenureSeniorSoftwareEngineer = totalTenureSeniorSoftwareEngineer / numberOfSeniorSoftwareEngineers;
-	int averageTenureDataScientist = totalTenureDataScientist / numberOfDataScientists;
-	int averageTenureProjectManager = totalTenureProjectManager / numberOfProjectManagers;
-	int averageTenureSeniorDataAnalyst = totalTenureSeniorDataAnalyst / numberOfSeniorDataAnalysts;
-	int averageTenureUXDesigner = totalTenureUXDesigner / numberOfUXDesigners;
-	int averageTenureQAAnalyst = totalTenureQAAnalyst / numberOfQAAnalysts;
+	float averageTenureSoftwareEngineer = totalTenureSoftwareEngineer / numberOfSoftwareEngineers;
+	float averageTenureSeniorSoftwareEngineer = totalTenureSeniorSoftwareEngineer / numberOfSeniorSoftwareEngineers;
+	float averageTenureDataScientist = totalTenureDataScientist / numberOfDataScientists;
+	float averageTenureProjectManager = totalTenureProjectManager / numberOfProjectManagers;
+	float averageTenureSeniorDataAnalyst = totalTenureSeniorDataAnalyst / numberOfSeniorDataAnalysts;
+	float averageTenureUXDesigner = totalTenureUXDesigner / numberOfUXDesigners;
+	float averageTenureQAAnalyst = totalTenureQAAnalyst / numberOfQAAnalysts;
 
 
 	cout << "Empoyee with longest tenture: " << endl; employees[longestTenureIndex].print();

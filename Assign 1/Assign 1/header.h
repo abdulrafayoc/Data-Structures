@@ -4,9 +4,12 @@
 #include <string>
 #include <ctime>
 #include <cstdlib>
+#include <fstream>
+#include <chrono>
 
 
 using namespace std;
+
 
 class Employee {
 private:
@@ -15,15 +18,15 @@ private:
 	int salary;
 	string dateOfJoining;
 	string designation;
+	int size;
 public:
-	/*static */int size;
 	Employee() {
 		name = "";
 		ID = "";
 		salary = 0;
 		dateOfJoining = "";
 		designation = "";
-		size++;
+		size = 10;
 	}
 	Employee(string name, string ID, int salary, string dateOfJoining, string designation) {
 		this->name = name;
@@ -86,5 +89,3 @@ public:
 		cout << "\tEmployee Tenure: " << getTenure() << " years" << endl;
 	}
 };
-
-//int Employee::size = 0;

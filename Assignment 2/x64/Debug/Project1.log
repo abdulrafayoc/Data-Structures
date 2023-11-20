@@ -1,0 +1,13 @@
+﻿  Source.cpp
+C:\Users\hp\Desktop\Project1\Project1\Source.cpp(228,37): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\hp\Desktop\Project1\Project1\Source.cpp(229,34): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\hp\Desktop\Project1\Project1\Source.cpp(230,34): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\hp\Desktop\Project1\Project1\Source.cpp(231,28): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\hp\Desktop\Project1\Project1\Source.cpp(232,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\hp\Desktop\Project1\Project1\Source.cpp(233,26): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\hp\Desktop\Project1\Project1\Source.cpp(334,26): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\hp\Desktop\Project1\Project1\Source.cpp(345,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\hp\Desktop\Project1\Project1\Source.cpp(309): warning C4715: 'find_resourse': not all control paths return a value
+C:\Users\hp\Desktop\Project1\Project1\Header1.h(239): warning C4715: 'LinkedList<Task>::find': not all control paths return a value
+C:\Users\hp\Desktop\Project1\Project1\Header1.h(239): warning C4715: 'LinkedList<Skill>::find': not all control paths return a value
+  Project1.vcxproj -> C:\Users\hp\Desktop\Project1\x64\Debug\Project1.exe
